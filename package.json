@@ -1,0 +1,102 @@
+{
+  "_args": [
+    [
+      "@gapur/react-native-accordion@1.0.6",
+      "/Users/mac/Documents/Cert/ClientCertificate"
+    ]
+  ],
+  "_from": "@gapur/react-native-accordion@1.0.6",
+  "_id": "@gapur/react-native-accordion@1.0.6",
+  "_inBundle": false,
+  "_integrity": "sha512-HRBrGqNpasbFSk0UhFCtXddGXorEgD2hyCOHjl9fck1zxJygk8N+Hz5x1ceB/ujWHxB7AGWKQKHUqz0rwtNmHw==",
+  "_location": "/@gapur/react-native-accordion",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@gapur/react-native-accordion@1.0.6",
+    "name": "@gapur/react-native-accordion",
+    "escapedName": "@gapur%2freact-native-accordion",
+    "scope": "@gapur",
+    "rawSpec": "1.0.6",
+    "saveSpec": null,
+    "fetchSpec": "1.0.6"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@gapur/react-native-accordion/-/react-native-accordion-1.0.6.tgz",
+  "_spec": "1.0.6",
+  "_where": "/Users/mac/Documents/Cert/ClientCertificate",
+  "author": {
+    "name": "Gapur Kassym",
+    "email": "gapur.kassym@gmail.com",
+    "url": "https://github.com/Gapur"
+  },
+  "bugs": {
+    "url": "https://github.com/Gapur/react-native-accordion/issues"
+  },
+  "description": "Animated accordion component for React Native with React 17 and React Native 0.64.3 Support",
+  "devDependencies": {
+    "@types/react": "^17.0.37",
+    "@types/react-native": "^0.64.3",
+    "@typescript-eslint/eslint-plugin": "^4.2.0",
+    "@typescript-eslint/parser": "^4.2.0",
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.1",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "eslint-plugin-react-native": "^3.9.1",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.3"
+  },
+  "homepage": "https://github.com/Gapur/react-native-accordion#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "accordion",
+    "react-native-component",
+    "native",
+    "mobile",
+    "ios",
+    "android",
+    "collapse"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "npx prettier --write",
+      "eslint --fix"
+    ]
+  },
+  "main": "lib/index.js",
+  "name": "@gapur/react-native-accordion",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-native": "^0.64.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gapur/react-native-accordion.git"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "eslint": "eslint '**/*.{ts,tsx}' --fix",
+    "prepublishOnly": "npm run build",
+    "prettier": "prettier --write \"**/*.+(ts|tsx|scss|json)\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "lib/index.d.ts",
+  "version": "1.0.6"
+}
